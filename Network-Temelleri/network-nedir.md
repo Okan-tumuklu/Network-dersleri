@@ -9,7 +9,7 @@ Nasıl çalışır, Ağlar, belirli iletişim protokolleri ve yazılım tabanlı
 
 Ne işe yarar, Ağlar, internete bağlanma, dosya ve yazıcı paylaşımı, e-posta iletişimi, veritabanı erişimi, web hizmetleri gibi çeşitli işlevleri destekler. Ayrıca, ağlar genellikle veri güvenliği, yönetim ve izleme gibi unsurları da içerir.</p>
 
-<h1 algin="center">Host Nedir?</h1>
+<h1 align="center">Host Nedir?</h1>
 
 <p>
 
