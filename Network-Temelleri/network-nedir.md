@@ -15,6 +15,9 @@ Ne işe yarar, Ağlar, internete bağlanma, dosya ve yazıcı paylaşımı, e-po
 
 <h1 align="center">Host Nedir?</h1>
 
+![image](https://github.com/Okan-tumuklu/Network-dersleri/assets/117488504/34d8c738-4a4e-4f94-9759-744cd3bf31f3)
+
+
 <p>
 
 Host, ağda veri iletişimi sağlayabilen ve diğer cihazlarla iletişim kurabilen herhangi bir cihazı ifade eder. Bilgisayarlar, sunucular, yazıcılar, yönlendiriciler, akıllı cihazlar ve diğer ağ cihazları host olarak adlandırılabilir. Hostlar, ağ üzerinde birbirleriyle veri paylaşabilir, iletişim kurabilir ve çeşitli işlemleri gerçekleştirebilir.
