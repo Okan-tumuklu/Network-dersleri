@@ -42,6 +42,7 @@ Sunucu, ağ üzerinde belirli hizmetleri sağlayan ve istemcilere hizmet veren b
 
 İstemci, ağ üzerindeki hizmetlere erişmek için sunuculara bağlanan bir bilgisayar veya donanım cihazıdır. İstemciler, genellikle kullanıcı tarafından kontrol edilen ve yönetilen cihazlardır. İstemciler, sunuculardan hizmet almak için isteklerde bulunur ve sunucuların sağladığı hizmetleri kullanırlar. Örneğin, bir web tarayıcısı bir web sunucusuna bağlanarak web sayfalarını alır ve kullanıcıya gösterir. Bir e-posta istemcisi, e-posta sunucusuna bağlanarak gelen ve giden e-postaları gösterir.
 
+***
 
 Not: Server ve client kavramları genellikle belirli bir iletişim veya hizmet ortamında tanımlandığı gibi katı roller gibi görünse de, bazı durumlarda bu roller değişebilir veya bulanıklaşabilir. Özellikle dağıtık sistemlerde veya eşzamanlı iletişim protokollerinde, bir cihazın bir anda server rolünde olduğu, ancak diğer cihazlarla iletişim kurduğu bir anda client rolüne geçebileceği durumlar olabilir. Bu, sistemdeki dinamik ihtiyaçlara ve koşullara bağlı olarak gerçekleşebilir. Örneğin, bir dosya paylaşım sisteminde bir cihaz dosyaları sunarken (server), aynı cihaz diğer dosyaları indirmek için diğer cihazlara bağlanabilir (client). Bu esneklik, sistemlerin daha etkili ve verimli çalışmasını sağlar ve işlevlerin dinamik olarak dağıtılmasına izin verir.
 
