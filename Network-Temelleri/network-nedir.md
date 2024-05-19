@@ -34,7 +34,7 @@ Adresleme: Her host, ağ üzerinde benzersiz bir tanımlayıcıya sahiptir. Bu t
 
 ![image](https://github.com/Okan-tumuklu/Network-dersleri/assets/117488504/48870ebb-6174-4cd9-a75b-497c691f61a0)
 
-<h1 algin="center">Sunucu(Server) Nedir?</h1>
+<h1 align="center">Sunucu(Server) Nedir?</h1>
 
 Sunucu, ağ üzerinde belirli hizmetleri sağlayan ve istemcilere hizmet veren bir bilgisayar veya donanım cihazıdır. Bir sunucu, genellikle yüksek performanslı ve güçlü bir bilgisayar olup, sürekli olarak çalışır. Web sunucuları, e-posta sunucuları, dosya sunucuları gibi çeşitli türlerde sunucular bulunmaktadır. Örneğin, bir web sunucusu, web sitelerini barındırır ve kullanıcıların internet üzerinden erişimine olanak sağlar. Bir e-posta sunucusu ise e-posta iletişimini sağlar ve kullanıcıların e-posta alışverişi yapmasını sağlar.
 
