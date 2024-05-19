@@ -29,3 +29,7 @@ Hostların Özellikleri vardır ve özellikleri şunlardır:
 Adresleme: Her host, ağ üzerinde benzersiz bir tanımlayıcıya sahiptir. Bu tanımlayıcı, IP adresi gibi bir ağ adresi veya bir host adı gibi bir isim olabilir. Bu adresleme, hostların ağ üzerinde tanınmasını ve diğer cihazlarla iletişim kurmasını sağlar.
 
 İşlevsellik: Hostlar, genellikle belirli işlevleri gerçekleştirmek üzere tasarlanmıştır. Örneğin, sunucular web siteleri veya dosya depolama hizmetleri sağlayabilirken, bilgisayarlar genel amaçlı hesaplama ve işlemler için kullanılır.</p>
+
+<h1 align="center">Server ve Client nedir?</h1>
+
+![image](https://github.com/Okan-tumuklu/Network-dersleri/assets/117488504/48870ebb-6174-4cd9-a75b-497c691f61a0)
