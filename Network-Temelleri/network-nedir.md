@@ -9,8 +9,9 @@ Nasıl çalışır, Ağlar, belirli iletişim protokolleri ve yazılım tabanlı
 
 Ne işe yarar, Ağlar, internete bağlanma, dosya ve yazıcı paylaşımı, e-posta iletişimi, veritabanı erişimi, web hizmetleri gibi çeşitli işlevleri destekler. Ayrıca, ağlar genellikle veri güvenliği, yönetim ve izleme gibi unsurları da içerir.</p>
 
+<h1 algin="center">Host Nedir?</h1>
 
-<p>Host Nedir?
+<p>
 
 Host, ağda veri iletişimi sağlayabilen ve diğer cihazlarla iletişim kurabilen herhangi bir cihazı ifade eder. Bilgisayarlar, sunucular, yazıcılar, yönlendiriciler, akıllı cihazlar ve diğer ağ cihazları host olarak adlandırılabilir. Hostlar, ağ üzerinde birbirleriyle veri paylaşabilir, iletişim kurabilir ve çeşitli işlemleri gerçekleştirebilir.
 
