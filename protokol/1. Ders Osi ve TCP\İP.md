@@ -19,8 +19,8 @@
 
 Gelin beraber bu katmanları tek tek inceleyerek çalışma prensibini anlayalım.
 
-<h3 align='center'>Application Layer(Uygulama Katmanı)</h3>
+<h3>Application Layer(Uygulama Katmanı)</h3>
 
-x
+
 
 </p>
