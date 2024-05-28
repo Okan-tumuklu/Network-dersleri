@@ -21,6 +21,8 @@ Gelin beraber bu katmanları tek tek inceleyerek çalışma prensibini anlayalı
 
 <h3>Application Layer(Uygulama Katmanı)</h3>
 
+Uygulama katmanı, kullanıcıları network ile bir araya getiren ve iletişimlerini sağlayan önemli bir katmandır. Bu katmanda, genellikle uygulamalar bulunur ve kullanıcılar bu uygulamalar aracılığıyla ağ üzerinde etkileşim kurarlar. Örneğin, bir kullanıcı mesaj göndermek, e-posta göndermek veya dosya paylaşmak istediğinde, bu işlemleri gerçekleştirmek için bir uygulamaya ihtiyaç duyar. Bu uygulamalar, arka planda çalışan bir ağ protokolü vasıtasıyla iletişimi sağlar ve iletim için veriyi hazırlamaya başlar. Daha sonra, bu veri, iletim için bir alt katmana iletilir.
 
+Uygulama katmanı, ağın en üst katmanını oluşturur ve kullanıcıların ağa erişmesini sağlar. Ancak, bu katman yalnızca kullanıcı etkileşimini değil, aynı zamanda ağ üzerindeki veri akışını da yönetir. Bu sayede, kullanıcılar istedikleri uygulamalara sorunsuz bir şekilde erişebilir ve iletişim kurabilirler. Bu katman ayrıca, uygulama düzeyindeki hataları ele alır ve kullanıcıya geri bildirim sağlar, böylece kullanıcılar işlemlerini daha güvenilir bir şekilde gerçekleştirebilirler.
 
 </p>
