@@ -17,5 +17,8 @@
     <img src="https://github.com/Okan-tumuklu/Network-dersleri/assets/117488504/45009d97-ab1b-4962-ad4f-66340c801568" alt="Network Image">
 </div>
 
-  
+Gelin beraber bu katmanları tek tek inceleyerek çalışma prensibini anlayalım.
+
+<h3 align='center'>Application Layer(Uygulama Katmanı)</h3>
+
 </p>
