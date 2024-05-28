@@ -21,4 +21,6 @@ Gelin beraber bu katmanları tek tek inceleyerek çalışma prensibini anlayalı
 
 <h3 align='center'>Application Layer(Uygulama Katmanı)</h3>
 
+x
+
 </p>
