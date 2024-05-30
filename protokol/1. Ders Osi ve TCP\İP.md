@@ -90,8 +90,30 @@ ___
 
 <h3>Network Layer(Ağ Katmanı)</h3>
 
+Network katmanı, taşıma katmanından aldığı verileri paketler haline getirir. Bu paketlere hangi cihaza gidecekse, o cihazın IP adresini ve kendi kaynak IP adresini ekler. Bu sayede veri, hangi cihaza gideceğini bilir ve hedef cihazda yanıtı hangi cihaza ileteceğini bilir. Network katmanında iki önemli özellik öne çıkar: adresleme ve yönlendirme. Adresleme, IP adresini pakete eklemektir; yönlendirme ise veriyi hedef cihaza doğru ve hızlı bir şekilde iletmek için doğru yolu bulmaktır.
+
+ <div align="center">
+    <img src="https://github.com/Okan-tumuklu/Network-dersleri/assets/117488504/58e5d695-53e1-4095-a7cd-22a17720ca3d" alt="Network Image">
+</div>
+
+Yukarıdaki resimde gördüğünüz gibi, en doğru yolu bulup hedefe yönlendiriyor.
+
+Tabiki bu katmanın Bir kaç görevi daha var bu ileriki konular içindir, ileride beraber öğreneceğiz.
+
+<h3>Data-Link Layer(Veri-Bağ Katmanı)</h3>
+
+Data Link katmanı, bilgisayar ağlarında verilerin fiziksel ortamda taşınabilir hale getirilmesinden sorumlu olan katmandır. üst katmanlardan aldığı verileri, fiziksel ortamda taşınabilir çerçevelere dönüştürür.
+
+Bu sırada, iletişimde bulunan cihazlar arasında doğrudan bağlantıyı sağlar. Bu katman, çerçeveleri oluştururken her bir çerçeveye hedef ve kaynak MAC adresleri ekler. MAC adresleri, ağdaki her bir cihazın benzersiz kimliğini temsil eder. Dolayısıyla, iletişimde gönderici ve alıcı cihazların belirlenmesini ve iletilen verinin doğru adrese ulaştırılmasını sağlar.
+
+Data Link katmanı, genellikle ağ kartları (network interface cards - NICs) ve Ethernet gibi fiziksel ağ teknolojileri tarafından desteklenir. Bu katman, aynı yerel ağdaki cihazlar arasında iletişimi yönetirken, aynı zamanda veri bütünlüğünü sağlayarak iletişim hatasını en aza indirir.
+
+<h3>Physical Layer(Fiziksel Katmanı)</h3>
+
+Fiziksel katman, üstten aldığı verileri kablolar ve cihazlar yardımıyla ileten katmandır. Bu katmanın sadece görevi, veriyi kablo, ışık veya radyo sinyali aracılığıyla iletmektir.
 
 </p>
 
 
-Devam edecem haaa
+<h2 align='center'>Kapsülleme</h2>
+
