@@ -25,6 +25,32 @@ Uygulama katmanı, kullanıcıları network ile bir araya getiren ve iletişimle
 
 Uygulama katmanı, ağın en üst katmanını oluşturur ve kullanıcıların ağa erişmesini sağlar. Ancak, bu katman yalnızca kullanıcı etkileşimini değil, aynı zamanda ağ üzerindeki veri akışını da yönetir. Bu sayede, kullanıcılar istedikleri uygulamalara sorunsuz bir şekilde erişebilir ve iletişim kurabilirler. Bu katman ayrıca, uygulama düzeyindeki hataları ele alır ve kullanıcıya geri bildirim sağlar, böylece kullanıcılar işlemlerini daha güvenilir bir şekilde gerçekleştirebilirler.
 
+<h3>Presentation Layer(Sunum Katmanı)</h3>
+
+Sunum katmanı, uygulama katmanından aldığı veriyi sıkıştırarak veya şifreleyerek bir alt katmana iletir. Bu şifreleme, verinin güvenliğini sağlamak, sıkıştırma ise veri iletim verimliliğini artırmak içindir. Sunum katmanı, verinin hedef cihazda anlaşılabilir olmasını sağlar. Veri, farklı sistemler arasında uyumlu ve güvenli bir şekilde çalışarak iletişimi sağlar.
+
+Bir kaç işlevi bulunmaktadır sunum katmanının. gelin ufak örnekler ile bahsedelim.
+
+***Veri Temsilinin Standardizasyonu***
+
+Bir web tarayıcısı (client) ve bir web sunucusu (server) arasında veri alışverişi yapıldığını düşünelim. Web tarayıcısı, sunucudan bir resim dosyası (JPEG formatında) talep eder. Sunum katmanı, bu JPEG dosyasının istemci ve sunucu arasında doğru formatta temsil edilmesini sağlar. Böylece tarayıcı, sunucudan gelen resim dosyasını doğru bir şekilde görüntüleyebilir.
+
+***Veri Şifreleme:***
+
+Bir bankanın web sitesi üzerinden çevrimiçi bankacılık işlemi yaparken, girdiğiniz kullanıcı adı ve şifre bilgilerinin güvenli bir şekilde sunucuya iletilmesi gerekir. Bu veriler, sunum katmanında şifrelenir (örneğin, TLS/SSL kullanılarak). Şifrelenmiş veri, ağ üzerinden güvenli bir şekilde iletilir ve sunucu tarafında yine sunum katmanında çözülerek orijinal haline getirilir.
+
+***Veri Sıkıştırma:***
+
+Büyük boyutlu bir dosyanın (örneğin, bir video dosyası) e-posta ile gönderilmesi gerektiğinde, bu dosyanın boyutunu azaltmak için sıkıştırılması gerekir. Sunum katmanı, dosyanın sıkıştırılmasını (örneğin, ZIP formatına dönüştürülmesini) sağlar. Alıcı tarafında, bu dosya sunum katmanında sıkıştırılmış formatından çıkarılır ve orijinal boyutuna döndürülür.
+
+***Veri Dönüştürme:***
+
+Farklı karakter kodlama sistemleri kullanan iki bilgisayar arasında veri aktarımı yapıldığını düşünelim. Örneğin, bir bilgisayar ASCII karakter setini, diğeri ise EBCDIC karakter setini kullanıyor olabilir. Sunum katmanı, ASCII'den EBCDIC'e ve EBCDIC'den ASCII'ye karakter kodlama dönüşümlerini gerçekleştirir. Bu sayede, iki bilgisayar arasında doğru ve anlaşılır veri alışverişi sağlanır.
+
+
+<h3>Session Layer(Sunum Katmanı)</h3>
+
+
 </p>
 
 
