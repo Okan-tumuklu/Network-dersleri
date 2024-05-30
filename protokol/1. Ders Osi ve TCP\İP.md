@@ -117,3 +117,28 @@ Fiziksel katman, üstten aldığı verileri kablolar ve cihazlar yardımıyla il
 
 <h2 align='center'>Kapsülleme</h2>
 
+<p>
+  
+  Dostlarım, fark ettiyseniz her katmanı anlatırken bir şeylerin eklenildiğini söyledim. Bunun sebebi şudur: Biz bir veriyi üretiyoruz ve uygulama katmanından başlayarak veriye belirli özel bilgiler ekliyoruz. İşte bu bilgiler IP adresi, MAC adresi, port numarası gibi. Buna kapsülleme deniyor. Biz bir veriyi ürettikten sonra iletime başlarken, en üst katmandan başlayarak alt katmana doğru bir kapsülleme işlemi gerçekleşiyor. Aynı şekilde, hedef cihaza veri ulaştıktan sonra, uygulama katmanına kadar veri kapsülden tek tek açılarak saf veriye ulaşıyor ve en sonunda veri kullanıcı tarafından görünüyor. Bu işleme de kapsülden çıkarma diyoruz.
+
+  Kapsülleme sırasında veri farklı formatlara dönüşür. İşte buna PDU'lar diyoruz ve PDU'lara bizler özel bilgiler ekliyoruz. Aslında yukarıda her katmanda nasıl bilgiler eklendiğini anlattım, ama aşağıda konuyu özetleyen bir resim de çiziyorum.
+
+   <div align="center">
+    <img src="https://github.com/Okan-tumuklu/Network-dersleri/assets/117488504/b9393d5e-0136-49ef-b3cf-8fae51b8db9b" alt="Network Image">
+</div>
+
+
+  Resimde gördüğünüz gibi: Uygulama, Sunum ve Oturum katmanlarında veri, veri olarak kalır. Taşıma katmanında segment halini alır ve port numaraları eklenir. Ağ Katmanında paket halini alır ve IP adresleri eklenir. Veri Bağlantısı Katmanında çerçeve adını, yani "frame" adını alır ve MAC adresleri eklenir. Fiziksel katmanda ise veri, elektrik, ışık veya radyo dalgası olarak binary olarak iletilir.
+</p>
+
+
+<h2 align='center'>TCP/İP vs OSİ modeli</h2>
+
+<p>
+  Arkadaşlar, her ikisi de aynı görevi yapar; TCP/IP adresi 4 katmandan oluşurken, OSI modeli 7 katmandan oluşur. Katmanların karışıklığı ise şu şekildedir: Hiçbir fark yoktur, bilginize.
+
+   <div align="center">
+    <img src="https://github.com/Okan-tumuklu/Network-dersleri/assets/117488504/8c0831e4-11a8-4e86-b3ee-9b6a40dbe7a4" alt="Network Image">
+</div>
+
+</p>
