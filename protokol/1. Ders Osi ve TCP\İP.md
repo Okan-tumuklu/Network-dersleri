@@ -77,6 +77,19 @@ Port numarası nedir diye sorarsanız: Bir cihaza veri gönderdiğimizi düşün
     <img src="https://github.com/Okan-tumuklu/Network-dersleri/assets/117488504/831e7afb-d5ff-493c-9d5f-4a3ff3834756" alt="Network Image">
 </div>
 
+Yalnız şöyle bir durum var: Server-client iletişimi sağlandığında, server sabit olarak uygulama için bir port numarası kullanır, ancak client tarafı dinamik olarak o iletişim için bir port açar. Örneğin, bir web sitesine bağlanırken hedef server 80 numaralı portu kullanırken, benim tarafımda random olarak 52300 numaralı bir port açılabilir. Aynı anda farklı bir web sitesine gittiğimde yine hedef 80 numaralı portu kullanırken, benim veriyi gönderdiğim port numarası 48305 olabilir. Gönderilen her verinin cevabı, bizim açmış olduğumuz random porttan bize gelir.
+
+ <div align="center">
+    <img src="https://github.com/Okan-tumuklu/Network-dersleri/assets/117488504/bfcfa4ca-9ea3-4368-9525-98eb67565840" alt="Network Image">
+</div>
+
+Bu katmanda genellikle iki farklı protokol kullanılır TCP veya UDP bunları ileride anlicaz.
+
+___
+
+
+<h3>Network Layer(Ağ Katmanı)</h3>
+
 
 </p>
 
