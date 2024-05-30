@@ -34,21 +34,22 @@ Bir kaç işlevi bulunmaktadır sunum katmanının. gelin ufak örnekler ile bah
 ****Veri Temsilinin Standardizasyonu****
 
 Bir web tarayıcısı (client) ve bir web sunucusu (server) arasında veri alışverişi yapıldığını düşünelim. Web tarayıcısı, sunucudan bir resim dosyası (JPEG formatında) talep eder. Sunum katmanı, bu JPEG dosyasının istemci ve sunucu arasında doğru formatta temsil edilmesini sağlar. Böylece tarayıcı, sunucudan gelen resim dosyasını doğru bir şekilde görüntüleyebilir.
-
+--
 ****Veri Şifreleme:****
 
 Bir bankanın web sitesi üzerinden çevrimiçi bankacılık işlemi yaparken, girdiğiniz kullanıcı adı ve şifre bilgilerinin güvenli bir şekilde sunucuya iletilmesi gerekir. Bu veriler, sunum katmanında şifrelenir (örneğin, TLS/SSL kullanılarak). Şifrelenmiş veri, ağ üzerinden güvenli bir şekilde iletilir ve sunucu tarafında yine sunum katmanında çözülerek orijinal haline getirilir.
-
+--
 ****Veri Sıkıştırma****
 
 Büyük boyutlu bir dosyanın (örneğin, bir video dosyası) e-posta ile gönderilmesi gerektiğinde, bu dosyanın boyutunu azaltmak için sıkıştırılması gerekir. Sunum katmanı, dosyanın sıkıştırılmasını (örneğin, ZIP formatına dönüştürülmesini) sağlar. Alıcı tarafında, bu dosya sunum katmanında sıkıştırılmış formatından çıkarılır ve orijinal boyutuna döndürülür.
-
+--
 ****Veri Dönüştürme****
 
 Farklı karakter kodlama sistemleri kullanan iki bilgisayar arasında veri aktarımı yapıldığını düşünelim. Örneğin, bir bilgisayar ASCII karakter setini, diğeri ise EBCDIC karakter setini kullanıyor olabilir. Sunum katmanı, ASCII'den EBCDIC'e ve EBCDIC'den ASCII'ye karakter kodlama dönüşümlerini gerçekleştirir. Bu sayede, iki bilgisayar arasında doğru ve anlaşılır veri alışverişi sağlanır.
 
 
 <h3>Session Layer(Sunum Katmanı)</h3>
+
 
 
 </p>
