@@ -19,14 +19,14 @@
 
 Gelin beraber bu katmanları tek tek inceleyerek çalışma prensibini anlayalım.
 
----
+___
 <h3>Application Layer(Uygulama Katmanı)</h3>
 
 Uygulama katmanı, kullanıcıları network ile bir araya getiren ve iletişimlerini sağlayan önemli bir katmandır. Bu katmanda, genellikle uygulamalar bulunur ve kullanıcılar bu uygulamalar aracılığıyla ağ üzerinde etkileşim kurarlar. Örneğin, bir kullanıcı mesaj göndermek, e-posta göndermek veya dosya paylaşmak istediğinde, bu işlemleri gerçekleştirmek için bir uygulamaya ihtiyaç duyar. Bu uygulamalar, arka planda çalışan bir ağ protokolü vasıtasıyla iletişimi sağlar ve iletim için veriyi hazırlamaya başlar. Daha sonra, bu veri, iletim için bir alt katmana iletilir.
 
 Uygulama katmanı, ağın en üst katmanını oluşturur ve kullanıcıların ağa erişmesini sağlar. Ancak, bu katman yalnızca kullanıcı etkileşimini değil, aynı zamanda ağ üzerindeki veri akışını da yönetir. Bu sayede, kullanıcılar istedikleri uygulamalara sorunsuz bir şekilde erişebilir ve iletişim kurabilirler. Bu katman ayrıca, uygulama düzeyindeki hataları ele alır ve kullanıcıya geri bildirim sağlar, böylece kullanıcılar işlemlerini daha güvenilir bir şekilde gerçekleştirebilirler.
 
--
+___
 <h3>Presentation Layer(Sunum Katmanı)</h3>
 
 Sunum katmanı, uygulama katmanından aldığı veriyi sıkıştırarak veya şifreleyerek bir alt katmana iletir. Bu şifreleme, verinin güvenliğini sağlamak, sıkıştırma ise veri iletim verimliliğini artırmak içindir. Sunum katmanı, verinin hedef cihazda anlaşılabilir olmasını sağlar. Veri, farklı sistemler arasında uyumlu ve güvenli bir şekilde çalışarak iletişimi sağlar.
@@ -49,7 +49,7 @@ Veri Dönüştürme
 
 Farklı karakter kodlama sistemleri kullanan iki bilgisayar arasında veri aktarımı yapıldığını düşünelim. Örneğin, bir bilgisayar ASCII karakter setini, diğeri ise EBCDIC karakter setini kullanıyor olabilir. Sunum katmanı, ASCII'den EBCDIC'e ve EBCDIC'den ASCII'ye karakter kodlama dönüşümlerini gerçekleştirir. Bu sayede, iki bilgisayar arasında doğru ve anlaşılır veri alışverişi sağlanır.
 
---
+___
 <h3>Session Layer(Sunum Katmanı)</h3>
 
 
